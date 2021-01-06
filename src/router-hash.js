@@ -1,3 +1,5 @@
+//router hash
+
 const div1 = document.createElement('div')
 div1.innerHTML = '1'
 const div2 = document.createElement('div')
