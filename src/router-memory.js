@@ -20,7 +20,6 @@ const routerTable = {
 
 function router() {
     let number = window.localStorage.getItem('xxx') //获取xxx的值
-    console.log(number)
 
     if (!number) {
         number = "/1"
@@ -58,7 +57,6 @@ function router() {
 router()
 
 function onStateChange() {
-    console.log('sate变了')
     router()
 }
 
